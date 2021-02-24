@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+
+<body>
+ <section class="main">
+   <div class="body-left">
+     <h1 class="tittle">
+      Learn to code by </br>
+      watching others
+     </h1>
+     <p class="description">See how experienced developers solve problems in real-time.</br>
+      Watching scripted tutorials is great, 
+      but understanding how</br>developers think is invaluable.</p>
+   </div>
+   <div class="body-right">
+      <div class="card-top">
+        <h1 class="promocion">Try it free 7 days <span class="small-promocion">then &#36;20/mo. thereafter</span></h1>
+      </div>
+      <form class="form">
+        <div class="form-group">
+        <input type="text" class="input-control" value="First Name" name="firstname" onfocus="this.value='';">
+     
+        <p class="tooltip tooltip-first">First Name cannot be empty</p>
+        </div>
+        <div class="form-group">
+          <input type="text" class="input-control" value="Last Name" name="lastname" onfocus="this.value='';">
+         
+          <p class="tooltip tooltip-last">Last Name cannot be empty</p>
+        </div>
+        <div class="form-group">
+          <input type="text" class="input-control" value="Email Address" name="email" onfocus="this.value='';">
+        
+          <p class="tooltip tooltip-email">Looks like this is not an email</p>
+        </div>
+        <div class="form-group">
+          <input type="password" class="input-control" value="Password" name="password" onfocus="this.value='';">
+                 <p class="tooltip tooltip-password">Password cannot be less than 3</p>
+        </div>
+        <button class="btn">CLAIM YOUR FREE TRIAL</button>
+        <p class="terms">By clicking the button, you are agreeing to our <span class="small-terms"> <a href="#" class="">Terms and Services</a></span></p>
+      </form>
+      
+
+      <script src="./js/app.js"></script>
+    </div>
+    <footer>
+      <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/MatheusSousa-Git?tab=repositories">Matheus Sousa</a>.
+      </footer>
+      </p>
+    </footer>     
+  </section>
+
+  
+<script src="./js/app.js"></script>
+</body>
+</html>
