@@ -1,0 +1,152 @@
+:root {
+  font-size: 16px;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/bg-intro-desktop.png");
+  background-color: #ff7a7a;
+  width: 100%;
+  height: auto;
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.body-right {
+  padding: 0;
+  margin: 0;
+}
+.card-top {
+  display: flex;
+  width: 480px;
+  height: 60px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+  border-radius: 10px;
+  background: #6055a5;
+  color: #fff;
+  position: relative;
+  top: -20px;
+  transition: all 0.5 ease;
+}
+.card-top:hover {
+  flex-grow: 3;
+  transform: scale(1.1);
+}
+form {
+  flex-grow: 3;
+  height: 450px;
+  width: 480px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 rgba(0,0,0,0.2);
+}
+input {
+  flex-grow: 3;
+  border-radius: 5px;
+  width: 400px;
+  height: 50px;
+  margin: 10px;
+}
+.input-control[value] {
+  flex-grow: 3;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  opacity: 50%;
+}
+button {
+  flex-grow: 3;
+  color: #fff;
+  background: #38cc8c;
+  border-radius: 5px;
+  margin: 10px;
+  width: 300px;
+  height: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 3px 0 rgba(0,0,0,0.2);
+  transition: all 0.5 ease;
+}
+button:hover {
+  flex-grow: 3;
+  transform: scale(1.1);
+}
+.terms {
+  flex-grow: 3;
+  font-size: 10px;
+  font-weight: 50;
+  opacity: 90%;
+}
+a {
+  flex-grow: 3;
+  text-decoration: none;
+  color: #ff7b00;
+  font-weight: bold;
+}
+.promocion {
+  flex-grow: 3;
+  font-size: 13px;
+}
+.small-promocion {
+  flex-grow: 3;
+  font-weight: 50;
+  opacity: 90%;
+}
+.body-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.tittle {
+  color: #fff;
+  font-size: 50px;
+  left: -100px;
+  position: relative;
+}
+.description {
+  color: #fff;
+  left: -60px;
+  top: 20px;
+  position: relative;
+}
+.error {
+  font-size: 100px;
+  color: #ff7b00;
+}
+.tooltip {
+  display: none;
+  align-content: flex-end;
+  color: #ff7a7a;
+  font-size: 11px;
+  justify-self: end;
+  right: -253px;
+  position: relative;
+}
+.attribution {
+  position: absolute;
+  bottom: 0;
+  left: 45%;
+  background-color: #ff7a7a;
+  text-align: center;
+  font-size: 12px;
+}
+.attribution a {
+  color: #3e4870;
+}
